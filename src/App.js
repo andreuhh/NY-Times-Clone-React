@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import SearchForm from './Components/SearchForm';
 
+import './App.scss'
+
 const App = () => {
   const [articles, setArticles] = useState([])
   const [term, setTerm] = useState('everything')

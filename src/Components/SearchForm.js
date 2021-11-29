@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 
+import './SearchForm.scss'
+
 const SearchForm = ({searchText}) => {
     const [text, setText] = useState('')
 
