@@ -7,7 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg-white {
+  background-color: white;
+}
+
+.showcase {
+  background-color: bisque;
+}
+
+.showcase .overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
